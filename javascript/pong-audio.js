@@ -43,26 +43,26 @@ export var soundArray = []; //list of sounds loaded
 
 //Here is where all the Sound File Players Start
 
-export var wallSound = new soundFile("b.mp3"); //load sound
+export var wallSound = new soundFile("e.mp3"); //load sound
 soundArray.push(wallSound); //add sound to list of sounds
 
-export var paddleSound = new soundFile("b.mp3");
+export var paddleSound = new soundFile("e.mp3");
 soundArray.push(paddleSound);
 
-export var scoreSound = new soundFile("b.mp3");
+export var scoreSound = new soundFile("e.mp3");
 soundArray.push(scoreSound);
 
-export var ambientSound = new soundFile("b.mp3");
+export var ambientSound = new soundFile("e.mp3");
 soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
 ambientSound.player.volume.value = -20; //turn down volume
 
-export var adventureMusic = new soundFile("b.mp3");
+export var adventureMusic = new soundFile("e.mp3");
 soundArray.push(adventureMusic);
 adventureMusic.player.loop = true;
 adventureMusic.player.volume.value = -16;
 
-export var villageMusic = new soundFile("b.mp3");
+export var villageMusic = new soundFile("e.mp3");
 soundArray.push(villageMusic);
 villageMusic.player.loop = true;
 villageMusic.player.volume.value = -16;
