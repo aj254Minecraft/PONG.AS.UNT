@@ -10,7 +10,7 @@ body {
 }
 #game {
   margin: 4px;
-  border: 5px solid black;
+  border: 5px solid white;
   left: 0;
   position: absolute;
   background-image: url("tron.png");
@@ -92,8 +92,10 @@ body {
 
 #left-score {
   left: 1%;
+  backround-color: white;
 }
 
 #right-score {
   right: 1%;
+  backround-color: white;
 }
